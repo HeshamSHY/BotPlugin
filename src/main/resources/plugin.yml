@@ -1,0 +1,3 @@
+name: BotPlugin
+version: '${project.version}'
+main: me.heshamshy.botplugin.BotPlugin
