@@ -1,8 +1,13 @@
-# 'Messages', a list of the messages that the plugin chooses from to send in the server chat.
+# 'messages', a list of the messages that the plugin chooses from to send in the server chat.
 messages:
   - "Text1"
   - "Text2"
   - "Text3"
+
+# 'messagesColor', the color in which the message should be sent.
+# check the following link for list of colors, the name should be entered the same way it is in the list:
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/ChatColor.html#valueOf(java.lang.String):~:text=Enum%20Constant%20Summary-,Enum%20Constants,-Enum%20Constant
+messageColor: GOLD
 
 # 'isRandom', chooses wither the messages are sent in a random order, or in the order of the 'Messages' list.
 # if set to 'true', the plugin will choose a message randomly and send it.
