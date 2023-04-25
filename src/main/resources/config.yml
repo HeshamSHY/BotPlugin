@@ -1,0 +1,13 @@
+# 'Messages', a list of the messages that the plugin chooses from to send in the server chat.
+messages:
+  - "Text1"
+  - "Text2"
+  - "Text3"
+
+# 'isRandom', chooses wither the messages are sent in a random order, or in the order of the 'Messages' list.
+# if set to 'true', the plugin will choose a message randomly and send it.
+# if set to 'false', the plugin will follow the order in the 'Messages' list to send the messages.
+isRandom: false
+
+# 'frequency', the frequency the messages are sent at(the delay between sending messages) in minutes.
+frequency: 30
